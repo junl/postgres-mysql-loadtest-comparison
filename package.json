@@ -1,0 +1,35 @@
+{
+  "name": "postgres-mysql-loadtest-comparison",
+  "version": "1.0.0",
+  "description": "Performance comparison load test between PostgreSQL and MySQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "node src/cli.js",
+    "setup": "node src/setup.js",
+    "benchmark": "node src/benchmark.js"
+  },
+  "keywords": [
+    "postgresql",
+    "mysql",
+    "performance",
+    "benchmark",
+    "load-test"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "pg": "^8.11.3",
+    "mysql2": "^3.6.5",
+    "commander": "^11.1.0",
+    "uuid": "^9.0.1",
+    "dotenv": "^16.3.1",
+    "chalk": "^4.1.2",
+    "cli-table3": "^0.6.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
